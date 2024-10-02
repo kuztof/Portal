@@ -1,0 +1,50 @@
+#banner{
+    background-color: #009999;
+    color: white;
+    text-align: center;
+    height: 80px;
+}
+#blok1{
+    font-family: Arial;
+    background-color: #009999;
+    color: white;
+    height: 150px;
+}
+#pie,#dru,#trz,#czw{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+#main{
+    clear: both;
+}
+#lewy,#prawy{
+    background-color: #669999;
+    width: 30%;
+    height: 600px;
+    float: left;
+}
+#srodek{
+    background-color: #99CCCC;
+    width: 40%;
+    height: 600px;
+    text-align: center;
+    float: left;
+}
+#stopka{
+    clear: both;
+    background-color: #009999;
+    color: white;
+    text-align: right;
+}
+td{
+border: 1px solid green;
+text-align: center;
+
+}
+button{
+    border: none;
+    margin: 10px;
+    background-color: green;
+    color: white;  
+}

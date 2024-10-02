@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal ogłoszeniowy</title>
+    <link rel="stylesheet" href="styl5.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header id="banner">
+            <h1>Portal Ogłoszeniowy</h1>
+        </header>
+        <div id="blok1">
+            <div id="pie"><img src="logo-male.png" alt=""></div>
+            <div id="dru">
+                <h3>Adres</h3>
+                <p>ul. Morska 45 Gdynia</p>
+            </div>
+            <div id="trz">
+                <h3>telefon</h3>
+                <p>601601601</p>
+            </div>
+            <div id="czw">
+                <h3>e-mail</h3>
+                <p>ogloszenia@poczta.pl</p>
+            </div>
+
+
+        </div>
+        <div id="main">
+            <div id="lewy">
+                <h2>Ceny ogłoszeń</h2>
+                <table>
+                    <tr>
+                        <td>Liczba ogłoszeń</td>
+                        <td>Cena ogłoszenia</td>
+                        <td>Bonus</td>
+                    </tr>
+                    <tr>
+                        <td>1 - 50</td>
+                        <td>2 PLN</td>
+                        <td rowspan="2"> Subskrypcja newsletterato upust 0,20 PLN na ogłoszenie</td>
+                    </tr>
+                    <tr>
+                        <td>51 i więcej</td>
+                        <td>1 PLN</td>
+                    </tr>
+
+                </table>
+            </div>
+            <div id="srodek">
+                <h2>Witamy na stronie naszego portalu!</h2>
+                <img src="logo-duze.png" alt="ogłoszenia">
+            </div>
+            <div id="prawy">
+                <h2>Ile kosztuje ogłoszenie</h2>
+                Podaj liczbę ogłoszeń <br><input type="number" name="" id="liczba"><br>
+                <input type="checkbox" name="" id="check">Policz pust na newsletter <br>
+                <button onclick="skrypt()">oblicz</button>
+
+                <p id="wynik"></p>
+            </div>
+
+        </div>
+        <footer id="stopka">Portal ogłoszeniowy poracował: Michał Sitko</footer>
+
+
+    </div>
+</body>
+<script src="java.js"></script>
+</html>
