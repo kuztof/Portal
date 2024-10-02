@@ -17,6 +17,6 @@ function skrypt() {
             wynik = (liczba * 1)
         }
     }
-    document.querySelector("#wynik").innerHTML=wynik
+        document.querySelector("#wynik").innerHTML="Koszt ogłoszeń "+wynik+" PLN"
 
 }
